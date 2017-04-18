@@ -21,6 +21,13 @@ class UIImagePDFSupportTests: XCTestCase {
         super.tearDown()
     }
     
+    func testUIImageWithPDFSupport() {
+        let image = UIImage(pdfFileName: "Icon", desiredSize: CGSize(width: 400, height: 20))
+        XCTAssertNotNil(image)
+        XCTAssertTrue(image?.size.width == 400)
+        XCTAssertTrue(image?.size.height == 20)
+    }
+    
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.

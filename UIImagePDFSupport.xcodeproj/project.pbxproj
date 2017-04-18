@@ -13,6 +13,8 @@
 		FA32261C1EA67C8F009B1805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA32261B1EA67C8F009B1805 /* Assets.xcassets */; };
 		FA32261F1EA67C8F009B1805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA32261D1EA67C8F009B1805 /* LaunchScreen.storyboard */; };
 		FA32262A1EA67C8F009B1805 /* UIImagePDFSupportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3226291EA67C8F009B1805 /* UIImagePDFSupportTests.swift */; };
+		FA3226351EA67E0C009B1805 /* UIImageWithPDFSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3226341EA67E0C009B1805 /* UIImageWithPDFSupport.swift */; };
+		FA3226371EA68094009B1805 /* Icon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FA3226361EA68094009B1805 /* Icon.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		FA3226251EA67C8F009B1805 /* UIImagePDFSupportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIImagePDFSupportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA3226291EA67C8F009B1805 /* UIImagePDFSupportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImagePDFSupportTests.swift; sourceTree = "<group>"; };
 		FA32262B1EA67C8F009B1805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA3226341EA67E0C009B1805 /* UIImageWithPDFSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageWithPDFSupport.swift; sourceTree = "<group>"; };
+		FA3226361EA68094009B1805 /* Icon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Icon.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		FA3226131EA67C8F009B1805 /* UIImagePDFSupport */ = {
 			isa = PBXGroup;
 			children = (
+				FA3226361EA68094009B1805 /* Icon.pdf */,
+				FA3226341EA67E0C009B1805 /* UIImageWithPDFSupport.swift */,
 				FA3226141EA67C8F009B1805 /* AppDelegate.swift */,
 				FA3226161EA67C8F009B1805 /* ViewController.swift */,
 				FA3226181EA67C8F009B1805 /* Main.storyboard */,
@@ -182,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA32261F1EA67C8F009B1805 /* LaunchScreen.storyboard in Resources */,
+				FA3226371EA68094009B1805 /* Icon.pdf in Resources */,
 				FA32261C1EA67C8F009B1805 /* Assets.xcassets in Resources */,
 				FA32261A1EA67C8F009B1805 /* Main.storyboard in Resources */,
 			);
@@ -203,6 +210,7 @@
 			files = (
 				FA3226171EA67C8F009B1805 /* ViewController.swift in Sources */,
 				FA3226151EA67C8F009B1805 /* AppDelegate.swift in Sources */,
+				FA3226351EA67E0C009B1805 /* UIImageWithPDFSupport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

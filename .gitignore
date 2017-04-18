@@ -1,0 +1,8 @@
+.hg
+.hgignore
+
+.DS_Store
+*.mode?v?
+*.xccheckout
+xcuserdata/
+TestProducts/
